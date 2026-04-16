@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void insertion_sort(int arr[],int n){
+void insertion_sort(char arr[],int n){
     for(int i=1;i<n;i++){
         int curr=arr[i];
         int prev=i-1;
@@ -11,7 +11,7 @@ void insertion_sort(int arr[],int n){
     }
 }
 int main(){
-        int n,arr[n];
+        int n;char arr[n];
         cout<<"insertion sort";
     cout<<"enter size of the array";
     cin>>n;
